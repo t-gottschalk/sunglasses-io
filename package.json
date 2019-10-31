@@ -4,10 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node app/server.js"
+    "start": "nodemon server.js"
+    // "test": "mocha || true"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tony",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -16,5 +17,10 @@
     "querystring": "^0.2.0",
     "rand-token": "^0.4.0",
     "router": "^1.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2"
   }
 }
